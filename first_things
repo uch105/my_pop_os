@@ -1,0 +1,16 @@
+sudo apt update
+sudo apt full-upgrade
+sudo apt install gnome-tweaks
+
+
+##customization tips :-->
+#in case, you don't want 'Home' and 'Trash' icons in your desktop...
+#this command works for ubuntu users =
+
+gsettings set org.gnome.shell.extensions.desktop-icons show-home false
+gsettings set org.gnome.shell.extensions.desktop-icons show-trash false
+
+#but in pop OS,things are slightly changed...
+
+gsettings set org.gnome.shell.extensions.ding show-home false
+gsettings set org.gnome.shell.extensions.ding show-trash false
